@@ -4,6 +4,7 @@
 
 import numpy as np
 import random
+
 random_number = random.randint(1, 101)
 def random_predict(number: int = 1) -> int:
     """Просто угадываем на random, никак не используя информацию о больше или меньше.
